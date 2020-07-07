@@ -31,7 +31,6 @@ public class PhoneBillTest {
     public void ShouldAcceptPhoneCallBillActionAndReturnTotal(){
         PhoneBill phoneBill = new PhoneBill();
         PhoneCall phoneCall= new PhoneCall(12.00);
-//        accepting 550mb bill action
         phoneBill.accept(phoneCall);
         phoneBill.total();
         assertEquals(12.00,phoneBill.total());
@@ -43,7 +42,6 @@ public class PhoneBillTest {
         PhoneCall phoneCall= new PhoneCall(12.00);
         DataBundle dataBundle = new DataBundle(550);
         SMSBundle smsBundle = new SMSBundle(0.75,2);
-//        accepting 550mb bill action
         phoneBill.accept(phoneCall);
         phoneBill.accept(dataBundle);
         phoneBill.accept(smsBundle);

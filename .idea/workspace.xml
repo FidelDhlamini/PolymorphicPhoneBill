@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b87ef23-59c3-4bb8-9ce1-70dd876df1ba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PhoneBillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PhoneBillTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +40,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBillTest">
-    <configuration name="DataBundleTest.ShouldGetDataBundleBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DataBundleTest">
+    <configuration name="DataBundleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
-      <option name="METHOD_NAME" value="ShouldGetDataBundleBill" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,16 +70,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBundleTest.ShouldGetDataBundleBillForMoreThanFiveHundredMB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PolymorphicPhoneBill" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
-      <option name="METHOD_NAME" value="ShouldGetDataBundleBillForMoreThanFiveHundredMB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhoneBillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,13 +79,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SMSBundleTest.ShouldGetSMSBundleBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SMSBundleTest" />
+      <option name="METHOD_NAME" value="ShouldGetSMSBundleBill" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataBundleTest" />
+        <item itemvalue="JUnit.SMSBundleTest.ShouldGetSMSBundleBill" />
         <item itemvalue="JUnit.PhoneBillTest" />
         <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForMoreThanAThousandMB" />
         <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForLessThanFiveHundredMB" />
-        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForMoreThanFiveHundredMB" />
-        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBill" />
       </list>
     </recent_temporary>
   </component>
@@ -117,26 +117,30 @@
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="170" y="134" width="1650" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1594117083929" />
-    <state width="1794" height="202" key="GridCell.Tab.0.bottom" timestamp="1594121646869">
+    <state width="1794" height="70" key="GridCell.Tab.0.bottom" timestamp="1594124019269">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1594121646869" />
-    <state width="1794" height="202" key="GridCell.Tab.0.center" timestamp="1594121646868">
+    <state width="1794" height="70" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1594124019269" />
+    <state width="1794" height="70" key="GridCell.Tab.0.center" timestamp="1594124019269">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1594121646868" />
-    <state width="1794" height="202" key="GridCell.Tab.0.left" timestamp="1594121646867">
+    <state width="1794" height="70" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1594124019269" />
+    <state width="1794" height="70" key="GridCell.Tab.0.left" timestamp="1594124019268">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1594121646867" />
-    <state width="1794" height="202" key="GridCell.Tab.0.right" timestamp="1594121646868">
+    <state width="1794" height="70" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1594124019268" />
+    <state width="1794" height="70" key="GridCell.Tab.0.right" timestamp="1594124019269">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="202" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1594121646868" />
+    <state width="1794" height="70" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1594124019269" />
     <state x="350" y="34" width="1280" height="1046" key="SettingsEditor" timestamp="1594116836233">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
     <state x="350" y="34" width="1280" height="1046" key="SettingsEditor/70.34.1850.1046@70.34.1850.1046" timestamp="1594116836233" />
+    <state x="575" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1594123228528">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="575" y="346" key="com.intellij.ide.util.TipDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1594123228528" />
     <state x="590" y="434" width="789" height="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594116825869">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
