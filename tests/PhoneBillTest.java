@@ -24,7 +24,7 @@ public class PhoneBillTest {
 //        accepting 550mb bill action
         phoneBill.accept(dataBundle);
         phoneBill.total();
-        assertEquals(302.5,phoneBill.total());
+        assertEquals(303.0,phoneBill.total());
 
     }
     @Test
@@ -48,7 +48,7 @@ public class PhoneBillTest {
         phoneBill.accept(dataBundle);
         phoneBill.accept(smsBundle);
         phoneBill.total();
-        assertEquals(316.00,phoneBill.total());
+        assertEquals(316.5,phoneBill.total());
 
     }
 
