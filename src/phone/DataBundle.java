@@ -22,7 +22,7 @@ public class DataBundle implements BillAction {
     @Override
     public double totalCost() {
 
-        return costOfMegabytes;
+        return Math.round(costOfMegabytes);
 
     }
 }

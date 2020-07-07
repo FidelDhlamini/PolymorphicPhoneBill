@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b87ef23-59c3-4bb8-9ce1-70dd876df1ba" name="Default Changelist" comment="" />
+    <list default="true" id="9b87ef23-59c3-4bb8-9ce1-70dd876df1ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_api_5_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/DataBundleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PhoneBillTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PhoneCallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/SMSBundleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolymorphicPhoneBill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PolymorphicPhoneBill.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/phone/DataBundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone/DataBundle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eCDsQ0XaZrQCTStrEWxGAiJBMb" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
@@ -23,72 +36,75 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+  <component name="RunManager" selected="JUnit.DataBundleTest.ShouldGetDataBundleBillForMoreThanAThousandMB">
+    <configuration name="DataBundleTest.ShouldDataBundleBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
+      <option name="METHOD_NAME" value="ShouldDataBundleBill" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="DataBundleTest.ShouldGetDataBundleBill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
+      <option name="METHOD_NAME" value="ShouldGetDataBundleBill" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration name="DataBundleTest.ShouldGetDataBundleBillForLessThanFiveHundredMB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PolymorphicPhoneBill" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
+      <option name="METHOD_NAME" value="ShouldGetDataBundleBillForLessThanFiveHundredMB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBundleTest.ShouldGetDataBundleBillForMoreThanAThousandMB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
+      <option name="METHOD_NAME" value="ShouldGetDataBundleBillForMoreThanAThousandMB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataBundleTest.ShouldGetDataBundleBillForMoreThanFiveHundredMB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PolymorphicPhoneBill" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataBundleTest" />
+      <option name="METHOD_NAME" value="ShouldGetDataBundleBillForMoreThanFiveHundredMB" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForMoreThanAThousandMB" />
+        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForLessThanFiveHundredMB" />
+        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBillForMoreThanFiveHundredMB" />
+        <item itemvalue="JUnit.DataBundleTest.ShouldGetDataBundleBill" />
+        <item itemvalue="JUnit.DataBundleTest.ShouldDataBundleBill" />
       </list>
     </recent_temporary>
   </component>
@@ -106,21 +122,51 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1794" height="160" key="GridCell.Tab.0.bottom" timestamp="1593862800057">
+    <state x="170" y="134" width="1650" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594117083929">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="160" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1593862800057" />
-    <state width="1794" height="160" key="GridCell.Tab.0.center" timestamp="1593862800056">
+    <state x="170" y="134" width="1650" height="846" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1594117083929" />
+    <state width="1794" height="244" key="GridCell.Tab.0.bottom" timestamp="1594120363846">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="160" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1593862800056" />
-    <state width="1794" height="160" key="GridCell.Tab.0.left" timestamp="1593862800055">
+    <state width="1794" height="244" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1594120363846" />
+    <state width="1794" height="244" key="GridCell.Tab.0.center" timestamp="1594120363845">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="160" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1593862800055" />
-    <state width="1794" height="160" key="GridCell.Tab.0.right" timestamp="1593862800056">
+    <state width="1794" height="244" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1594120363845" />
+    <state width="1794" height="244" key="GridCell.Tab.0.left" timestamp="1594120363838">
       <screen x="70" y="34" width="1850" height="1046" />
     </state>
-    <state width="1794" height="160" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1593862800056" />
+    <state width="1794" height="244" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1594120363838" />
+    <state width="1794" height="244" key="GridCell.Tab.0.right" timestamp="1594120363845">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state width="1794" height="244" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1594120363845" />
+    <state x="350" y="34" width="1280" height="1046" key="SettingsEditor" timestamp="1594116836233">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="350" y="34" width="1280" height="1046" key="SettingsEditor/70.34.1850.1046@70.34.1850.1046" timestamp="1594116836233" />
+    <state x="590" y="434" width="789" height="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594116825869">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="590" y="434" width="789" height="253" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.34.1850.1046@70.34.1850.1046" timestamp="1594116825869" />
+    <state x="0" y="34" width="1057" height="1046" key="find.popup" timestamp="1594117531149">
+      <screen x="70" y="34" width="1850" height="1046" />
+    </state>
+    <state x="0" y="34" width="1057" height="1046" key="find.popup/70.34.1850.1046@70.34.1850.1046" timestamp="1594117531149" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/tests/DataBundleTest.java</url>
+          <line>6</line>
+          <properties class="DataBundleTest" method="ShouldDataBundleBill">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
